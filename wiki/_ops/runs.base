@@ -1,0 +1,99 @@
+[
+  {
+    "completedAt": null,
+    "errorMessage": null,
+    "phase": "release",
+    "runId": "6718d58d-3580-462e-89c1-23c1f33b8dd4",
+    "source": null,
+    "startedAt": 1781059775033,
+    "stats": null,
+    "status": "running",
+    "triggerRunId": null
+  },
+  {
+    "completedAt": 1781059770103,
+    "errorMessage": null,
+    "phase": "synthesize",
+    "runId": "773c7ecd-a934-44ed-9b3d-cf13c1ca7eb8",
+    "source": null,
+    "startedAt": 1781059639609,
+    "stats": {
+      "commitBranch": "main",
+      "commitMessage": "Update Impel synthesized wiki artifacts",
+      "commitRepository": "pradneshsanderan/CF-Wiki",
+      "commitSha": "d1b056e828d2348f813ea328b0e250fa34cd0348",
+      "errors": 0,
+      "processed": 1,
+      "sourcePaths": [
+        "default/1781059623238-AI Automation Project_Social Media Comment Taxonomy Classifier.pdf"
+      ],
+      "wikiFiles": 7
+    },
+    "status": "succeeded",
+    "triggerRunId": null
+  },
+  {
+    "completedAt": 1781059627251,
+    "errorMessage": null,
+    "phase": "ingest",
+    "runId": "7bc37782-6b70-44a6-83e5-10542e0103ab",
+    "source": "manual",
+    "startedAt": 1781059623301,
+    "stats": {
+      "contentFingerprint": "sha256:630cb9aa8b70d2c368908120c7914845e38ee823ddda94d32a63a9d1d8a1e3a6",
+      "cursor": {
+        "since": "2026-06-10T02:47:03.301Z",
+        "source": "manual"
+      },
+      "deleted": 0,
+      "durationMs": 3903,
+      "errors": 0,
+      "forceReingest": false,
+      "ingestionHarness": "claude_code",
+      "ingestionHarnesses": [
+        "claude_code"
+      ],
+      "managedSourceFallback": false,
+      "managedSourceFallbacks": 0,
+      "queueSynthesis": true,
+      "rawByteSize": 226274,
+      "rawCommitBranch": "main",
+      "rawCommitRepository": "pradneshsanderan/CF-Wiki",
+      "rawCommitSha": "200be8c65a729a7cfa414e691c2ff6996c26f42a",
+      "scanned": 1,
+      "skipped": 0,
+      "sourceConfigChanged": false,
+      "sourcePath": "default/1781059623238-AI Automation Project_Social Media Comment Taxonomy Classifier.pdf",
+      "sourcePaths": [
+        "default/1781059623238-AI Automation Project_Social Media Comment Taxonomy Classifier.pdf"
+      ],
+      "stagingMode": "inline",
+      "written": 1
+    },
+    "status": "succeeded",
+    "triggerRunId": null
+  },
+  {
+    "completedAt": 1781059419432,
+    "errorMessage": "GitHub wiki store request failed (409): Git Repository is empty.",
+    "phase": "ingest",
+    "runId": "986a7caf-0491-46ab-968d-ca3ffdde7f2e",
+    "source": "manual",
+    "startedAt": 1781059416524,
+    "stats": {
+      "deleted": 0,
+      "durationMs": 2895,
+      "errors": 1,
+      "managedSourceFallbacks": 0,
+      "scanned": 1,
+      "skipped": 0,
+      "sourceConfigChanged": true,
+      "sourcePaths": [
+        "default/1781059416434-AI Automation Project_Social Media Comment Taxonomy Classifier.pdf"
+      ],
+      "written": 0
+    },
+    "status": "failed",
+    "triggerRunId": null
+  }
+]

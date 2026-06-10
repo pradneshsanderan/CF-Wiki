@@ -1,0 +1,13 @@
+{
+  "capped": false,
+  "rawOnly": 1,
+  "rawOnlyCapped": false,
+  "sourceDeleted": 0,
+  "sourceDeletedCapped": false,
+  "stale": 0,
+  "staleCapped": false,
+  "synced": 0,
+  "syncedCapped": false,
+  "total": 1,
+  "totalCapped": false
+}
