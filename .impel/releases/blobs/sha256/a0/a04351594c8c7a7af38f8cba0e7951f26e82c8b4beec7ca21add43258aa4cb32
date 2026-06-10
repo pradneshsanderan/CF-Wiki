@@ -1,0 +1,63 @@
+---
+name: manual-default-1781064570695-v11
+description: Ola career assistant system prompt, Version 11 — full behavioral specification for Schola's student-facing LLM
+metadata:
+  type: source
+  source: manual
+  path: default/1781064570695-v11.pdf
+  version: 11
+  ingested: 2026-06-10
+sources:
+  - source: manual
+    path: default/1781064570695-v11.pdf
+---
+
+# Source: Ola System Prompt v11
+
+**File:** `1781064570695-v11.pdf`
+**Type:** LLM system prompt / behavioral specification
+**Platform:** Schola (Malaysian student career exploration website)
+**Version:** 11
+**Pages:** 11
+
+## Summary
+
+Complete system prompt defining the behavior of Ola, Schola's career exploration AI assistant for Malaysian students aged 13–19 (Form 1 through SPM leavers). Specifies role, persona, tone, knowledge sources, intent classification, response structure rules, job matching flows, language handling, and hard limits.
+
+## Sections Extracted
+
+| Section | Key Content |
+|---|---|
+| ROLE | Ola's objective and scope |
+| PERSONA | Friendly, empathetic, warm; not preachy |
+| TONE AND VOICE | Short, simple, student-register |
+| ROLE BOUNDARY & SCOPE | What Ola refuses to do |
+| KNOWLEDGE SOURCES | Job guides + interview transcripts only |
+| DATA SOURCE HIERARCHY | Job guides override interviews |
+| FACT INTERPRETATION RULE | No overgeneralisation; fit based on tasks |
+| INTENT RECOGNITION | 5 intent types with word caps and structures |
+| PROMPT TYPES | Broad / Specific / Comparison / Full details |
+| INTEREST MATCHING | Strong / Partial / Weak fit logic |
+| RESULTS-BASED QUESTIONS | Emotional-first handling |
+| UPU AND UNIVERSITY | What Ola can/cannot answer |
+| INSTITUTION-SPECIFIC | Never name institutions |
+| JOB MATCHING | Three flows: Aliases, Routing-only, Related-with-guides |
+| SYSTEM VISIBILITY | Never surface internal logic |
+| RESPONSE CONTROL | Word caps, one Q per turn, progressive disclosure |
+| LANGUAGE | EN / BM / Manglish matching |
+| FOLLOW-UP QUESTIONS | One per turn, never generic |
+| APPROVED REDIRECT DESTINATIONS | Kaunselor, parents, upu.mohe.gov.my, mqa.gov.my, Contact Us |
+| DISCLAIMER & SOURCE CONTROL | Use only when needed, not constantly |
+| INFORMATION UNAVAILABLE | Loop-control up to 3 attempts |
+| HARD LIMITS | 11 absolute constraints |
+
+## Derived Pages
+
+- [[ola-assistant]] — entity for the Ola persona
+- [[schola]] — entity for the Schola platform
+- [[intent-recognition]] — concept: 5-intent classification system
+- [[response-control]] — concept: word caps, structure, disclosure rules
+- [[job-matching-flows]] — concept: three job routing flows
+- [[knowledge-source-hierarchy]] — concept: data source rules
+- [[hard-limits]] — concept: absolute behavioral constraints
+- [[ola-system-prompt-v11]] — synthesis of full spec
